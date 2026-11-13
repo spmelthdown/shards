@@ -1,18 +1,16 @@
 /**
- * @name system24
- * @description a tui-like discord theme.
- * @author refact0r
- * @version 2.0.0
- * @invite nz87hXyvcy
- * @website https://github.com/refact0r/system24
- * @source https://github.com/refact0r/system24/blob/master/theme/system24.theme.css
- * @authorId 508863359777505290
- * @authorLink https://www.refact0r.dev
+ * @name Yvonne S24
+ * @description edited refact0r discord theme.
+ * @author spmelthdown
+ * @version 2.0.7.7
+ * @invite Vj35WcPEWd
+ * @website https://github.com/spmelthdown/shards/discord
+ * @source https://github.com/spmelthdown/shards/discord/themes/system24me.css
 */
 
 /* import theme modules */
 @import url('https://mudrhiod.github.io/discord-iconpacks/vencord/solar/solar.css');
-@import url('https://github.com/spmelthdown/wallpapers/blob/main/system24.css');
+@import url('https://refact0r.github.io/system24/build/system24.css');
 
 body {
     /* font, change to '' for default discord font */
