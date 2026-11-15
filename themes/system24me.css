@@ -12,6 +12,19 @@
 @import url('https://mudrhiod.github.io/discord-iconpacks/vencord/solar/solar.css');
 @import url('https://refact0r.github.io/system24/build/system24.css');
 
+/* убрать чёрную квадратную полосу внизу чата */
+[class*="chatTypingGradientAtBottom_"],
+form[class*="form_"]::before {
+    display: none !important;
+}
+
+/* убрать все затемняющие градиенты внизу чата */
+[class*="chatGradient"],
+[class*="chatTypingGradient"],
+form[class*="form_"]::before {
+    display: none !important;
+}
+
 body {
     /* font, change to '' for default discord font */
     --font: ''; /* change to '' for default discord font */
@@ -67,8 +80,8 @@ body {
     --small-user-panel: on; /* off: default user panel, on: smaller user panel like in old discord */
 
     /* unrounding options */
-    --unrounding: on; /* off: default, on: remove rounded corners from panels */
-
+    --unrounding: off; /* off: default, on: remove rounded corners from panels */
+    
     /* styling options */
     --custom-spotify-bar: on; /* off: default, on: custom text-like spotify progress bar */
     --ascii-titles: on; /* off: default, on: use ascii font for titles at the start of a channel */
